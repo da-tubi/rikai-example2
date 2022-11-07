@@ -1,3 +1,6 @@
 # Put your dependencies in the requirements
 
-jupyter_lab(name="default", requirements=["pyspark==3.3.0"])
+jupyter_lab(
+    name="default",
+    requirements=["rikai==0.1.14", "pyspark==3.2.0", "mlflow==1.26.1", "scikit-learn", "matplotlib"],
+)

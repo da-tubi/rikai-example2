@@ -5,3 +5,5 @@ dist/
 .idea/
 .ipynb_checkpoints
 
+mlruns.db
+mlruns
