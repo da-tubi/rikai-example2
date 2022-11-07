@@ -12,10 +12,13 @@
 //     "jupyterlab==3.4.8",
 //     "matplotlib",
 //     "mlflow==1.26.1",
+//     "pyarrow==6.0.0",
 //     "pyspark==3.2.0",
 //     "rikai==0.1.14",
 //     "scikit-learn",
-//     "setuptools"
+//     "setuptools",
+//     "torch==1.10.2",
+//     "torchvision==0.11.3"
 //   ]
 // }
 // --- END PANTS LOCKFILE METADATA ---
@@ -2786,36 +2789,46 @@
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "b9f63ceb8346aac0bcb487fafe9faca642ad448ca649fcf66a027c6e120cbc12",
-              "url": "https://files.pythonhosted.org/packages/b5/73/1928f92f2f3567f7df2ad75588da2d3a5f52b44d7d0c03d43e111b05e8f6/pyarrow-10.0.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+              "hash": "d046dc78a9337baa6415be915c5a16222505233e238a1017f368243c89817eea",
+              "url": "https://files.pythonhosted.org/packages/f9/bc/3eb9978d71e775f44b8a08cda27fe28f575acd1303d5e2d35ee75df4cad0/pyarrow-6.0.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "b45f969ed924282e9d4ede38f3430630d809c36dbff65452cabce03141943d28",
-              "url": "https://files.pythonhosted.org/packages/07/f7/ee422a76cd1ec6366326b701c8ee82c283f7432122135575e0a878eb09f8/pyarrow-10.0.0-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+              "hash": "fbda7595f24a639bcef3419ecfac17216efacb09f7b0f1b4c4c97f900d65ca0e",
+              "url": "https://files.pythonhosted.org/packages/26/3f/ff28781e7b6acff9108c2221dd0d7bbe84545fae542577860ec0f1ca7cc7/pyarrow-6.0.0-cp38-cp38-macosx_10_9_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "68ccb82c04c0f7abf7a95541d5e9d9d94290fc66a2d36d3f6ea0777f40c15654",
-              "url": "https://files.pythonhosted.org/packages/1c/f0/4b41f7f0e84a5454886f02707f55423e1e2331f3a2019b39eae475029eb1/pyarrow-10.0.0-cp38-cp38-macosx_11_0_arm64.whl"
+              "hash": "6a1d9a2f4ee812ed0bd4182cabef99ea914ac297274f0de086f2488093d284ef",
+              "url": "https://files.pythonhosted.org/packages/34/93/eeeddc33031fabface457d6c8d03b6f6670d45db26c0388ac943f04dbb1f/pyarrow-6.0.0-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "69b8a1fd99201178799b02f18498633847109b701856ec762f314352a431b7d0",
-              "url": "https://files.pythonhosted.org/packages/43/08/d04893609c4eca5e50e93c52ce80b92c107a73d51999c0275121003c802a/pyarrow-10.0.0-cp38-cp38-macosx_10_14_x86_64.whl"
+              "hash": "5be62679201c441356d3f2a739895dcc8d4d299f2a6eabcd2163bfb6a898abba",
+              "url": "https://files.pythonhosted.org/packages/52/e2/c56a075b0231780560365ca51a8cf775cc792938116bee9cacbc1f4ae582/pyarrow-6.0.0.tar.gz"
             },
             {
               "algorithm": "sha256",
-              "hash": "b153b05765393557716e3729cf988442b3ae4f5567364ded40d58c07feed27c2",
-              "url": "https://files.pythonhosted.org/packages/bd/3d/9594c09e1e2fe2e5ed7ef5c22e4347fee2ea243bccd960442e2c97731fd2/pyarrow-10.0.0.tar.gz"
+              "hash": "bf3400780c4d3c9cb43b1e8a1aaf2e1b7199a0572d0a645529d2784e4d0d8497",
+              "url": "https://files.pythonhosted.org/packages/8a/86/f466f70186c08d5c66f73809c9cbd254c06a196e206b555554dabacb7fe2/pyarrow-6.0.0-cp38-cp38-macosx_11_0_arm64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "15dc0d673d3f865ca63c877bd7a2eced70b0a08969fb733a28247134b8a1f18b",
+              "url": "https://files.pythonhosted.org/packages/b9/d3/33a1c3140316f16459381550debc0cd625595a0522fcfa3484da0c3b064c/pyarrow-6.0.0-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "a50d2f77b86af38ceabf45617208b9105d20e7a5eebc584e7c8c0acededd82ce",
+              "url": "https://files.pythonhosted.org/packages/bf/08/caf383f7190eb1755e1dac085eabaf7cf7b389b6f84cd60953aed2c3e4d2/pyarrow-6.0.0-cp38-cp38-macosx_10_13_x86_64.whl"
             }
           ],
           "project_name": "pyarrow",
           "requires_dists": [
             "numpy>=1.16.6"
           ],
-          "requires_python": ">=3.7",
-          "version": "10"
+          "requires_python": ">=3.6",
+          "version": "6"
         },
         {
           "artifacts": [
@@ -3748,6 +3761,70 @@
           "artifacts": [
             {
               "algorithm": "sha256",
+              "hash": "3592d3dd62b32760c82624e7586222747fe2281240e8653970b35f1d6d4a434c",
+              "url": "https://files.pythonhosted.org/packages/c0/2a/3401595e371a63195016968efd450c46048cf0d1b341adb33c029ab6aa1e/torch-1.10.2-cp38-none-macosx_11_0_arm64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "ab77a9f838874f295ed5410c0686fa22547456e0116efb281c66ef5f9d46fe28",
+              "url": "https://files.pythonhosted.org/packages/4a/a0/3b8d5b80560afbff0688edd66926335bef153d91a95926810ab234798ae2/torch-1.10.2-cp38-cp38-manylinux1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "f281438ee99bd72ad65c0bba1026a32e45c3b636bc067fc145ad291e9ea2faab",
+              "url": "https://files.pythonhosted.org/packages/7e/ee/14fcdd0e8b19108efd953cc5b38f409df39659bbec3b12afaa6dd3e2967b/torch-1.10.2-cp38-none-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "9ef4c004f9e5168bd1c1930c6aff25fed5b097de81db6271ffbb2e4fb8b89319",
+              "url": "https://files.pythonhosted.org/packages/f8/2c/ace8d8d942ccd064639fae6c366344d832fbca174b8df059396a5f51e3a5/torch-1.10.2-cp38-cp38-manylinux2014_aarch64.whl"
+            }
+          ],
+          "project_name": "torch",
+          "requires_dists": [
+            "dataclasses; python_version < \"3.7\"",
+            "typing-extensions"
+          ],
+          "requires_python": ">=3.6.2",
+          "version": "1.10.2"
+        },
+        {
+          "artifacts": [
+            {
+              "algorithm": "sha256",
+              "hash": "b237b39e1c558ad5c9043b6e56bc568ee745f7f064f53270a3fceb53b9725c4b",
+              "url": "https://files.pythonhosted.org/packages/e1/cf/d19fc48359f888607bac25d1102b72540b40316587fc572efe9fdc7642a6/torchvision-0.11.3-cp38-cp38-manylinux2014_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "63647dfb9b0354bc8c5bb120f2dc15a123cee7f5fd6a8e84561da46cc2c89e3a",
+              "url": "https://files.pythonhosted.org/packages/00/a8/0d59336acc849c5d6beb1d38d59b16e4a2e6ac66036ae92ba748f7f02575/torchvision-0.11.3-cp38-cp38-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "0eda00afc5176b35e69eddd018ee633e3e3d74bbcf139eccdc150781c4ae83a7",
+              "url": "https://files.pythonhosted.org/packages/21/f4/0a2978512bab69a1bd2626e311a45c37b4dec100025661df70d1ede69de4/torchvision-0.11.3-cp38-cp38-manylinux1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "a82d7d383fabb45fb54aa569ab216b87b98f9eb9de75b3cbfedab555a71209fa",
+              "url": "https://files.pythonhosted.org/packages/a8/1f/3ae670bb65fa932cf7b22db62ef088a5069165844c0b186e61ecbe315c9b/torchvision-0.11.3-cp38-cp38-macosx_11_0_arm64.whl"
+            }
+          ],
+          "project_name": "torchvision",
+          "requires_dists": [
+            "numpy",
+            "pillow!=8.3.0,>=5.3.0",
+            "scipy; extra == \"scipy\"",
+            "torch"
+          ],
+          "requires_python": null,
+          "version": "0.11.3"
+        },
+        {
+          "artifacts": [
+            {
+              "algorithm": "sha256",
               "hash": "1d54d13ab8414ed44de07efecb97d4ef7c39f7438cf5e976ccd356bebb1b5fca",
               "url": "https://files.pythonhosted.org/packages/f9/51/6f63a166d9a3077be100cbb13dcbce434e5654daaaa7003b0a045b9f6edf/tornado-6.2-cp37-abi3-musllinux_1_1_x86_64.whl"
             },
@@ -3820,6 +3897,24 @@
           ],
           "requires_python": ">=3.7",
           "version": "5.5"
+        },
+        {
+          "artifacts": [
+            {
+              "algorithm": "sha256",
+              "hash": "16fa4864408f655d35ec496218b85f79b3437c829e93320c7c9215ccfd92489e",
+              "url": "https://files.pythonhosted.org/packages/0b/8e/f1a0a5a76cfef77e1eb6004cb49e5f8d72634da638420b9ea492ce8305e8/typing_extensions-4.4.0-py3-none-any.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "1511434bb92bf8dd198c12b1cc812e800d4181cfcb867674e0f8279cc93087aa",
+              "url": "https://files.pythonhosted.org/packages/e3/a7/8f4e456ef0adac43f452efc2d0e4b242ab831297f1bac60ac815d37eb9cf/typing_extensions-4.4.0.tar.gz"
+            }
+          ],
+          "project_name": "typing-extensions",
+          "requires_dists": [],
+          "requires_python": ">=3.7",
+          "version": "4.4"
         },
         {
           "artifacts": [
@@ -3980,10 +4075,13 @@
     "jupyterlab==3.4.8",
     "matplotlib",
     "mlflow==1.26.1",
+    "pyarrow==6.0.0",
     "pyspark==3.2.0",
     "rikai==0.1.14",
     "scikit-learn",
-    "setuptools"
+    "setuptools",
+    "torch==1.10.2",
+    "torchvision==0.11.3"
   ],
   "requires_python": [
     "==3.8.14"
