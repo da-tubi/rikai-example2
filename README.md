@@ -1,4 +1,4 @@
-# Launching Jupyter Notebooks in an easy way
+# Rikai Examples in Jupyter Notebooks
 ## Usage
 ``` shell
 bin/lab
